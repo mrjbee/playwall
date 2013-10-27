@@ -1,0 +1,17 @@
+#Java Files#
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+#Linux Files#
+nohup.out
+
+#Maven Files#
+/target
+
+#Intelij Idea Files#
+*.iml
+.idea
