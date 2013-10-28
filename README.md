@@ -8,6 +8,24 @@ as game station.
 
 
 ###Launchers and Launchers format
+Launcher - property file which specify items available in play wall. Some of the lauchers threaded as games 
+and available from game menu, some threated as system and available in system menu. Launcher specify
+which command to execute when particalar item was choosen.
+
+```properties
+# Game Title or System Item Name
+title = Tomb Raider: Underworld
+# [Optional] Id of game in http://thegamesdb.net data base (http://thegamesdb.net/game/67)
+id=67 
+# Values: game, system. Dedicated for separating game items from system items
+type=game
+# Command to execute
+exec=...
+# [Optional] directory from which execute command
+dir=...
+# Processes to monitor (using to follow process stat and stop)
+proc=...
+```
 ###How to Build
 Project representet as Maven2+ project. In order to build project artifact, few steps required:
 
