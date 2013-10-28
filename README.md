@@ -1,12 +1,12 @@
 Play Wall Game Launcher
 ========
+######Download [Beta Release] (https://github.com/mrjbee/playwall/releases/tag/Beta)
+
 Desktop launcher designed to be controlled from GamePad. Dedicated for keyboard- and mouseless station which using
 as game station.
 
 * ___Current development state___ Under BETA testing
 * ___Supported OS___ Linux, Windows
-
-######Download [Beta Release] (https://github.com/mrjbee/playwall/releases/tag/Beta)
 
 Check video at Vimeo: https://vimeo.com/78017321
 
