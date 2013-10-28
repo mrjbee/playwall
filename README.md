@@ -3,11 +3,9 @@ Play Wall Game Launcher
 Desktop launcher designed to be controlled from GamePad. Dedicated for keyboard- and mouseless station which using
 as game station.
 
-######Current development state
-Under BETA testing
+* ___Current development state___ Under BETA testing
+* ___Supported OS___ Linux, Windows
 
-######Supported OS
-Linux, Windows
 
 ###Launchers and Launchers format
 ###How to build
