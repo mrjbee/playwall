@@ -9,7 +9,21 @@ as game station.
 
 ###Launchers and Launchers format
 ###How to build
+Project representet as Maven2+ project. In order to build project artifact, few steps required:
+
+* Install third party dependenices which doesn`t exists in global maven dependecies
+ * Go to ___./3dparty___ folder
+ * On Linux: Execute ___install.sh___ script 
+ * On Windows: copy and execute line by line from ___install.sh___ script, whic represent mvn commands
+
+* Create build artifact using mvn
+ * Go to ___./___ project folder
+ * Execute __mvn clean install__
+
+In a target folder find ___play-wall-{version}-jar-with-dependencies.jar___ file. This is all-in-one jar wich could be executed with "___java -jar playwall.jar___" instruction.
+
 ###How to run
+
 ###Third Party Libraries
 * __JInput__ - Java Game Controller API (https://java.net/projects/jinput)
 * __Timing Framework__ - a library for making Java animation and timing-based control easier (https://java.net/projects/timingframework) 
