@@ -12,8 +12,8 @@ as game station.
 Project representet as Maven2+ project. In order to build project artifact, few steps required:
 
 * Install third party dependenices which doesn`t exists in global maven dependecies
- * Go to ___.\3dparty___ folder
- * On Linux: Execute `.\install.sh` script 
+ * Go to ___./3dparty___ folder
+ * On Linux: Execute `./install.sh` script 
  * On Windows: copy and execute line by line from ___install.sh___ script, whic represent mvn commands
 
 * Create build artifact using mvn
