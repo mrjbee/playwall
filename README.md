@@ -6,6 +6,11 @@ as game station.
 * ___Current development state___ Under BETA testing
 * ___Supported OS___ Linux, Windows
 
+![alt tag](https://raw.github.com/mrjbee/playwall/master/screenshots/Title.png)
+![alt tag](https://raw.github.com/mrjbee/playwall/master/screenshots/GameMenu.png)
+
+> * All game related data taken from TheGameDb site (http://thegamesdb.net)
+> * Wallpaper - created by rymae (http://rymae.deviantart.com/art/Wallpaper-Game-July-2012-for-FTJ-No-text-337101533)
 
 ###Launchers and Launchers format
 Launcher - property file which specify items available in PlayWall for execution. Some of the lauchers treated as games 
