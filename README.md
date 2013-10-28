@@ -8,8 +8,8 @@ as game station.
 
 
 ###Launchers and Launchers format
-Launcher - property file which specify items available in play wall. Some of the lauchers threaded as games 
-and available from game menu, some threated as system and available in system menu. Launcher specify
+Launcher - property file which specify items available in PlayWall for execution. Some of the lauchers treated as games 
+and available from game menu, some - as system and available in system menu. Launcher specify
 which command to execute when particalar item was choosen.
 
 ```properties
