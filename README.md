@@ -6,6 +6,8 @@ as game station.
 * ___Current development state___ Under BETA testing
 * ___Supported OS___ Linux, Windows
 
+######Download [Beta Release] (https://github.com/mrjbee/playwall/releases/tag/Beta)
+
 Check video at Vimeo: https://vimeo.com/78017321
 
 ![alt tag](https://raw.github.com/mrjbee/playwall/master/screenshots/Title.png)
