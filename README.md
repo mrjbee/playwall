@@ -8,21 +8,31 @@ as game station.
 
 
 ###Launchers and Launchers format
-###How to build
+###How to Build
 Project representet as Maven2+ project. In order to build project artifact, few steps required:
 
 * Install third party dependenices which doesn`t exists in global maven dependecies
- * Go to ___./3dparty___ folder
- * On Linux: Execute ___install.sh___ script 
+ * Go to ___.\3dparty___ folder
+ * On Linux: Execute `.\install.sh` script 
  * On Windows: copy and execute line by line from ___install.sh___ script, whic represent mvn commands
 
 * Create build artifact using mvn
  * Go to ___./___ project folder
- * Execute __mvn clean install__
+ * Execute `mvn clean install`
 
-In a target folder find ___play-wall-{version}-jar-with-dependencies.jar___ file. This is all-in-one jar wich could be executed with "___java -jar playwall.jar___" instruction.
+In a target folder find ___play-wall-{version}-jar-with-dependencies.jar___ file. This is all-in-one jar wich could be executed with `java -jar playwall.jar` instruction.
 
-###How to run
+###How to Run
+In order to launch application you should use following java (or javaw) syntax:
+```
+java -jar -Dhome={home-folder} -Djava.library.path={native-libs-folder} {executable.jar}
+```
+where (without breakets), 
+* {home-folder} -  application home folder (should conatin ___background.jpg___ and launchers folder). For example, ___{project root}/example___
+* {native-libs-folder} - folder where native libs are placed (see ___3dparty/native___ folder). For example, ___{project root}/3dparty/native___
+* {executable.jar} -all-in-one playwall jar. For example, ___play-wall-{version}-jar-with-dependencies.jar___
+
+> You could use Java VM options for run configuration right from your IDE
 
 ###Third Party Libraries
 * __JInput__ - Java Game Controller API (https://java.net/projects/jinput)
