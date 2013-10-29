@@ -8,7 +8,7 @@ as game station.
 * ___Current development state___ Under BETA testing
 * ___Supported OS___ Linux, Windows
 
-Check video at Vimeo: https://vimeo.com/78017321
+Check video at YouTube: http://youtu.be/2U4js2SyKRM
 
 ![alt tag](https://raw.github.com/mrjbee/playwall/master/screenshots/Title.png)
 ![alt tag](https://raw.github.com/mrjbee/playwall/master/screenshots/GameMenu.png)
